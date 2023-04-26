@@ -122,7 +122,7 @@ span{
 }
 
 .apresentacao__imagem {
-   
+   height: 43.75rem;
     width: 50%;
 }
 
@@ -138,11 +138,20 @@ span{
  .apresentacao {
     flex-direction: column-reverse;
     padding: 5%;
+    gap: 45px;
  }
 
  .apresentacao__conteudo{
     width: auto;
  }
 
+.rodape {
+    font-size: 1.2rem;
+}
+}
 
+@media (max-width: 700px) {
+    .apresentacao__imagem{
+        height: 250px;
+    }
 }
